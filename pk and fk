@@ -1,0 +1,7 @@
+[Authors]───< [BookAuthors] >───[Books]───< [Borrowings] >───[Members]
+
+- Authors (author_id PK)
+- Books (book_id PK)
+- Members (member_id PK)
+- Borrowings (borrowing_id PK, FK → Members, FK → Books)
+- BookAuthors (book_id FK → Books, author_id FK → Authors, Composite PK)
