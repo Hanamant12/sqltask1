@@ -1,0 +1,18 @@
+Entities (Tables):
+
+Books
+
+Authors
+
+Members
+
+Borrowings
+
+Relationships:
+
+A book can have one or more authors (many-to-many)
+
+A member can borrow multiple books (one-to-many)
+
+A book can be borrowed multiple times (one-to-many)
+
